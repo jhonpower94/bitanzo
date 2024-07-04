@@ -48,7 +48,7 @@ const SectionCard = ({ data, type }) => {
                 <div className={styles.wrapper}>
                   <div className={styles.div1}>
                     <font color={usd_24h_change < 0 ? "red" : "green"}>
-                      {usd_24h_change.toFixed(2)}%
+                      {(Math.round(usd_24h_change * 100) / 100).toFixed(2)}%
                     </font>
                   </div>
                 </div>
