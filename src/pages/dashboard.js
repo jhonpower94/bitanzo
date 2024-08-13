@@ -299,7 +299,7 @@ export function DashboardIndex() {
   return (
     <>
       <Helmet>
-        <script src="//code.jivosite.com/widget/QzcZaD4u1Q" async></script>
+        <script src="//code.jivosite.com/widget/K4vNlFZbdf" async></script>
       </Helmet>
       <Outlet />
 
