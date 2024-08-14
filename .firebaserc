@@ -3,7 +3,8 @@
     "default": "cryptospace-4979e",
     "kv": "kryptovault-7b9ac",
     "b2b": "block2bit-54be7",
-    "bb": "bitboxwallet-d8b3d"
+    "bb": "bitboxwallet-d8b3d",
+    "bc": "basecoin-33efc"
   },
   "targets": {
     "cryptospace-4979e": {
@@ -31,6 +32,13 @@
       "hosting": {
         "bb": [
           "bitboxwalletaccount"
+        ]
+      }
+    },
+    "basecoin-33efc": {
+      "hosting": {
+        "bc": [
+          "basecoinaccount"
         ]
       }
     }
